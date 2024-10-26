@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -37,7 +38,7 @@ const Header = () => {
           <a className="nav-link" href="#">IMDbPro</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"><i className="bi bi-bookmark"></i> Watchlist</a>
+          <Link to='watchlist' className="nav-link" href="#"><i className="bi bi-bookmark"></i> Watchlist</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Sign In</a>
